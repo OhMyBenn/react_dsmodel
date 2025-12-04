@@ -168,7 +168,7 @@ export default function CreateDiabetes() {
             </div>
             <button
               type="submit"
-              className="btn btn-dark w-100 fw-semibold"
+              className="btn btn-primary w-100 fw-semibold"
               style={{ borderRadius: "8px", padding: "12px 0" }}>
               {isLoading ? "Memproses..." : "Predict"}
             </button>
